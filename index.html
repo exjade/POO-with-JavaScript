@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>OOP - @Exjade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="flex flex-col justify-between items-center w-full h-full text-white p-2">
+        <!-- ENCABEZADO -->
+        <header class="flex flex-col justify-center items-center w-full h-full sm:h-[200px] lg:h-[100px] gap-5 my-5">
+            <h1 class="text-xl font-semibold capitalize">POO - Programación Orientada a Objetos</h1>
+            <nav class="flex justify-center items-center w-full">
+                <ul class="flex flex-row flex-wrap justify-center items-center gap-5 h-full sm:h-[50px]">
+                    <li
+                        class=" border border-2 border-gray-500 px-10 cursor-pointer hover:bg-gray-300 hover:text-black">
+                        Abstracción</li>
+                    <li
+                        class=" border border-2 border-gray-500 px-10 cursor-pointer hover:bg-gray-300 hover:text-black">
+                        Encapsulamiento</li>
+                    <li
+                        class=" border border-2 border-gray-500 px-10 cursor-pointer hover:bg-gray-300 hover:text-black">
+                        Herencia</li>
+                    <li
+                        class=" border border-2 border-gray-500 px-10 cursor-pointer hover:bg-gray-300 hover:text-black">
+                        Polimorfismo</li>
+                </ul>
+            </nav>
+        </header>
+        <!-- CONTENIDO -->
+        <main class="flex flex-col justify-center items-center w-full my-10">
+            <section class="flex flex-col gap-5 justify-between items-justify  w-[95%] sm:w-10/12 h-full border border-gray-500 p-2 sm:p-10 rounded-md">
+                <span class="flex flex-col justify-between items-start">
+                    <h3 class="font-semibold text-md uppercase">Abstracción</h4>
+                    <blockquote class="text-gray-300 italic text-normal">
+                        Abstraer, es eliminar los detalles innecesarios para sólo enfocarnos en los aspectos que son
+                        necesarios para el contexto, o sistema que estamos desarrollando.
+                    </blockquote>
+                </span>
+                <span class="flex flex-col justify-between items-start">
+                    <h3 class="font-semibold text-md uppercase">Encapsulación</h4>
+                    <blockquote class="text-gray-300 italic text-normal">
+                        - Encapsulación
+                        - Es ocultar los detalles que no son relevantes para el exterior
+                        - Agrupar datos (propiedades) y métodos que actúan sobre esas propiedades de manera que el
+                        acceso a esos datos está restringido fuera del paquete.
+                        -
+                    </blockquote>
+                </span>
+                <span class="flex flex-col justify-between items-start">
+                    <h3 class="font-semibold text-md uppercase">Herencia</h4>
+                    <blockquote class="text-gray-300 italic text-normal">
+                        Por medio de la herencia una clase "hija" hereda de una clase "padre" sus métodos y atributos
+                    </blockquote>
+                </span>
+                <span class="flex flex-col justify-between items-start">
+                    <h3 class="font-semibold text-md uppercase">Polimorfismo </h4>
+                    <blockquote class="text-gray-300 italic text-normal">
+                        - Se refiere a la capacidad de realizar una misma acción en diferentes formas.
+                        - Ejemplo, una clase puede sobrescribir un método de una clase de la que hereda para emplear la
+                        misma funcionalidad pero con alguna variante.
+                    </blockquote>
+                </span>
+            </section>
+        </main>
+
+        <!-- PIE DE PÁGINA -->
+        <footer class="text-gray-300 w-full flex justify-center items-center py-3 border-t-2 border-gray-500">
+            <p>Made with ♥ by <a href="https://github.com/exjade" target="_blank">@exjade</a></p>
+        </footer>
+    </div>
+
+    <script src="./js/oop.js"></script>
+
+</body>
+
+</html>
